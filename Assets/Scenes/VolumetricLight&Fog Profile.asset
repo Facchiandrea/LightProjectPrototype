@@ -36,7 +36,7 @@ MonoBehaviour:
   m_Name: Fog
   m_EditorClassIdentifier: 
   active: 1
-  m_AdvancedMode: 0
+  m_AdvancedMode: 1
   enabled:
     m_OverrideState: 1
     m_Value: 1
@@ -106,13 +106,13 @@ MonoBehaviour:
     m_Value: 64
     min: 0.1
   sliceDistributionUniformity:
-    m_OverrideState: 0
-    m_Value: 0.75
+    m_OverrideState: 1
+    m_Value: 1
     min: 0
     max: 1
   filter:
-    m_OverrideState: 0
-    m_Value: 0
+    m_OverrideState: 1
+    m_Value: 1
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
